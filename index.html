@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <div class="header">
         <h1>ROCK PAPER SCISSORS</h1>
-        <h2 id="round"></h2>
-        <h2 id="winnder"></h2>
+    </div>
+    <div class="play_data">
+        <p id="player_score">Score: </p>
+        <div class="round_winer">
+            <p id="round">ROUND #</p>
+            <p id="winner">...</p>
+        </div>
+        <p id="computer_score">Score: </p>
     </div>
     <div class="game_screen">
         <div class="player_screen">
-            <p id="player_score">Score: </p>
             <p id="player_choice"></p>
         </div>
         <div class="computer_screen">
-            <p id="computer_score">Score: </p>
             <p id="player_choice"></p>
         </div>
     </div>
