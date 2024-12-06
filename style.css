@@ -55,7 +55,7 @@ html, body {
         .player_screen, .computer_screen {
             background-color: white;
             border-radius: 10px;
-            border: 1px solid black;
+            border: 1px solid blackq;
             width: 20rem;
             height: 25rem;
             display: flex;
