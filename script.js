@@ -14,4 +14,19 @@ function playerChoice() {
     }
 }
 
+function computerChoice() {
+    let choice = Math.random();
+
+    if (choice < 0.33) {
+        document.getElementById("computer_choice").innerHTML = "ROCK";
+    }
+    else if (choice < 0.66) {
+        document.getElementById("computer_choice").innerHTML = "PAPER";
+    }
+    else {
+        document.getElementById("computer_choice").innerHTML = "SCISSORS";
+    }
+}
+
 playerChoice();
+computerChoice();
